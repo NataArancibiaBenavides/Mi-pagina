@@ -84,11 +84,13 @@ header {
    }
 
    .boton{
+   	text-align: center;
    	border-radius:8px ;
    	background-color:#519DF2;
     color:#fff;
     font-size:20px;
    	border:none;
+   	margin-left: 30px;
 
 
    }
@@ -104,10 +106,83 @@ header {
    	line-height: 0,3px;
    }
 
+   .foto1 {
 
-  @media (max-width: 768px) {
+   	margin-top: 20px;
+   	margin-left: 30px;
+   	background-image: url(../img/grupo.jpg);
+   	line-height: 40px;
+	background-color: #CFA8B9;
+	background-size:cover;
+	height:30vh;	
+	width: 20%;
+	background-repeat: none;
+	
+   }
+
+   .foto p{
+
+   	margin-top: 10px;
+   	margin-left: 10px;
+   	text-align: center;
+   }
+   .boton2{
+   	margin-top: 25px;
+   	margin-left: 30px;
+   	padding: 5px;
+   	border-radius:8px ;
+   	border: none;
+   	background-color:#ACF472;
+   	text-align: center;
+   }
+
+.foto2 {
+
+   	margin-top: 20px;
+   	margin-left: 30px;
+   	background-image: url(../img/bike.jpg);
+   	line-height: 40px;
+	background-color: #CFA8B9;
+	background-size:cover;
+	height:30vh;	
+	width: 20%;
+	background-repeat: none;
+	
+   }
+
+   .foto-2 p{
+
+   	margin-top: 10px;
+   	margin-left: 10px;
+   	text-align: center;
+   }
+   .boton3{
+   	margin-top: 25px;
+   	margin-left: 30px;
+   	padding: 5px;
+   	border-radius:8px ;
+   	border: none;
+   	background-color:#ACF472;
+   	text-align: center;
+   }
+
+    footer{
+
+   	background-color: #555151;
+   	height:80px;
+
+   }
+   footer h4{
+
+   	color:#fff;
+   	text-align: center;
+   }
+
+
+
+  @media (max-width: 780px) {
 	[class*="col-"] {
-		max-width: 100%;
+		max-width:  100%;
 		flex: none;
 	}
 	.menu{
@@ -120,6 +195,11 @@ header {
   	    max-width: 33.333333%;
 		display:block;
 		float: right;
+	}
+	.foto1 {
+
+		width: 100%;
+		height: auto;
 	}
 
 
