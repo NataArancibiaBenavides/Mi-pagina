@@ -1,0 +1,131 @@
+/*
+Resetear el navegador
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Crear container
+*/
+
+/*.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  background-repeat: none;
+}*/
+header {
+
+	background-color: #211B1B;
+	margin: 0px;
+	height:60px;
+	width: 100%;
+}
+  header h2{
+	color: #fff;
+	font-size:20px;
+	padding: 3px;
+}
+ .caja1{
+
+	background-image: url(../img/bici.jpg);
+	line-height: 0px;
+	background-color: #CFA8B9;
+	background-repeat: none;
+	background-size: cover;
+	background-position: 0% 57%;
+	height:55vh;
+	width: 100%;
+	
+
+ }
+
+     nav.menu  ul li  {
+ 	list-style: none;
+ 	display: inline-block;
+ 	background-color;
+ 	text-align:center;
+ 	margin:5px;
+ 	padding: 5px;
+ 	color:#fff;
+ 	font-size:15px;
+ 	
+}
+
+     .menu nav ul li:hover{
+
+ 	text-orientation: right;
+	background-color: #E5E0F4;
+	color:#3D3232;
+
+}
+   
+   .row i{
+   	margin: 10px;
+   	font-size: 20px;
+   	color:#fff;
+   	display: none;
+   }
+
+   .texto1 h1{
+   	margin: 20px;
+   	text-align: center;
+   	color:#383232;
+   }
+
+   .texto1 p{
+
+   	margin: 40px;
+   	color:#646464;
+   }
+
+   .boton{
+   	border-radius:8px ;
+   	background-color:#519DF2;
+    color:#fff;
+    font-size:20px;
+   	border:none;
+
+
+   }
+
+
+   .contacto h1{
+  
+   	color:#1A1919;
+   }
+   .contacto p{
+
+   	text-align: center;
+   	line-height: 0,3px;
+   }
+
+
+  @media (max-width: 768px) {
+	[class*="col-"] {
+		max-width: 100%;
+		flex: none;
+	}
+	.menu{
+		display: none;
+		
+		
+	}
+	.row i{
+		flex: 0 0 40%;
+  	    max-width: 33.333333%;
+		display:block;
+		float: right;
+	}
+
+
+}
+
+
+
+
+
